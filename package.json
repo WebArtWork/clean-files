@@ -1,0 +1,26 @@
+{
+	"name": "clean-files",
+	"version": "0.0.1",
+	"description": "Delete files if not included in any file.",
+	"license": "MIT",
+	"repository": "WebArtWork/clean-files",
+	"author": {
+		"name": "Honchar Denys",
+		"email": "crackeraki@gmail.com"
+	},
+	"engines": {
+		"node": ">=4.4.7"
+	},
+	"main": "./index.js",
+	"keywords": [
+		"cleaner"
+	],
+	"bin": {
+		"waw": "index.js"
+	},
+	"preferGlobal": "true",
+	"dependencies": {
+		"fs-extra": "*",
+    	"recursive-readdir": "*"
+	}
+}
